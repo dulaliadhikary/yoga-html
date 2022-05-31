@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap');
+$font-color:#484f5b;
+
+// font-family: 'Open Sans', sans-serif;
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    color: $font-color;
+    font-size: 16px;
+    font-family:  'Open Sans', sans-serif;
+}
+
+.container{
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.align-item-center{
+    align-items:center ;
+}
+
+.col-3{
+    flex: 0 0 25%;
+    max-width: 25%;
+
+}
+
+.col-6{
+    flex: 0 0 50%;
+    min-width: 50%;
+}
+
+.col-9{
+  flex: 0 0 75%;
+  max-width: 75%;
+
+}
+
+.main-header{
+    height: 120px;
+    line-height: 120px;
+}
+
+.logo{
+    padding-top: 20px;
+    img{
+        max-width: 220px;
+    }
+}
+
+.main-menu{
+    ul{
+        display: flex;
+        column-gap: 75px;
+        justify-content: end;
+        li{
+            list-style: none;
+            a {
+                text-decoration: none;
+                color: $font-color;
+                font-size: 18px;
+                font-weight: 500px;
+            }
+        }
+    }
+}
+
+.banner-area{
+    background-image: url('../images/header-bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .banner-img{
+        img{
+            position: relative;
+            left: 8px;
+          }
+    }
+    .banner-content-wrap{
+        padding-left: 50px;
+        .banner-content{
+        
+            h1{
+               font-size: 65px;
+                font-weight: 700;
+                text-transform: capitalize;
+                padding-bottom: 80px;
+            }
+            p{
+                font-size: 16px;
+                font-weight: 400;
+                padding-bottom: 50px;
+         
+            }
+            .banner-btn {
+                text-decoration: none;
+                height: 50px;
+                width: 200px;
+                background-color: #e6c8c3;
+                display: inline-block;
+                text-align: center;
+                line-height: 50px;
+
+            }
+        }
+    }
+}
+.pregnent-area{
+    background-image: url('../images/pregnent.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .pregnent-content{
+        padding: 184px 0 174px;
+        h1{
+            font-size: 65px;
+             font-weight: 700;
+             text-transform: capitalize;
+             padding-bottom: 82px;
+         }
+         p{
+             line-height: 30px;
+             font-size: 16px;
+             font-weight: 400;
+             padding-bottom: 50px;
+
+            
+         }
+         .pregnent-btn {
+            text-decoration: none;
+            height: 50px;
+            width: 200px;
+            background-color: #e6c8c3;
+            display: inline-block;
+            text-align: center;
+            line-height: 50px;
+
+        }
+
+    }
+}
