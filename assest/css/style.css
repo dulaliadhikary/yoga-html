@@ -131,7 +131,7 @@ body {
 
 .banner-area .banner-img img {
   position: relative;
-  left: -275px;
+  left: 45px;
 }
 
 .banner-area .banner-content-wrap {
@@ -147,7 +147,7 @@ body {
 }
 
 .pregnent-area {
-  background-image: url("../images/pregnent.jpg");
+  background-image: url("../images/pregnent-bg.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
