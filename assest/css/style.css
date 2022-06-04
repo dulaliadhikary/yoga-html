@@ -10,6 +10,17 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
+.content h1 {
+  font-size: 65px;
+  font-weight: 700;
+}
+
+.content p {
+  line-height: 30px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
 .container {
   max-width: 1250px;
   margin: 0 auto;
@@ -36,6 +47,13 @@ body {
   max-width: 25%;
 }
 
+.col-4 {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 33.33%;
+          flex: 0 0 33.33%;
+  min-width: 33.33%;
+}
+
 .col-6 {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 50%;
@@ -48,6 +66,25 @@ body {
       -ms-flex: 0 0 75%;
           flex: 0 0 75%;
   max-width: 75%;
+}
+
+.btn {
+  text-decoration: none;
+  height: 50px;
+  width: 204px;
+  color: #484f5b;
+  background-color: #e6c8c3;
+  text-transform: uppercase;
+  font-weight: 700;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .main-header {
@@ -94,7 +131,7 @@ body {
 
 .banner-area .banner-img img {
   position: relative;
-  left: 8px;
+  left: -275px;
 }
 
 .banner-area .banner-content-wrap {
@@ -102,26 +139,11 @@ body {
 }
 
 .banner-area .banner-content-wrap .banner-content h1 {
-  font-size: 65px;
-  font-weight: 700;
-  text-transform: capitalize;
-  padding-bottom: 80px;
-}
-
-.banner-area .banner-content-wrap .banner-content p {
-  font-size: 16px;
-  font-weight: 400;
   padding-bottom: 50px;
 }
 
-.banner-area .banner-content-wrap .banner-content .banner-btn {
-  text-decoration: none;
-  height: 50px;
-  width: 200px;
-  background-color: #e6c8c3;
-  display: inline-block;
-  text-align: center;
-  line-height: 50px;
+.banner-area .banner-content-wrap .banner-content p {
+  padding-bottom: 50px;
 }
 
 .pregnent-area {
@@ -136,62 +158,94 @@ body {
 }
 
 .pregnent-area .pregnent-content h1 {
-  font-size: 65px;
-  font-weight: 700;
-  text-transform: capitalize;
   padding-bottom: 82px;
 }
 
 .pregnent-area .pregnent-content p {
-  line-height: 30px;
-  font-size: 16px;
-  font-weight: 400;
-  padding-bottom: 50px;
-}
-
-.pregnent-area .pregnent-content .pregnent-btn {
-  text-decoration: none;
-  height: 50px;
-  width: 200px;
-  background-color: #e6c8c3;
-  display: inline-block;
-  text-align: center;
-  line-height: 50px;
-}
-
-.program-bg {
-  padding: 50px 0;
+  padding-bottom: 87px;
 }
 
 .box-item {
   text-align: center;
-  width: 400px;
-  height: 154px;
-}
-
-.box-img {
-  margin-bottom: 40px;
+  padding: 80px 0 110px;
 }
 
 .box-img-1 {
-  background-image: url(../images/brash-img-1.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin-top: 45px;
+  padding: 45px 0 20px;
 }
 
 .box-img-2 {
-  background-image: url(../images/brash-img-2.png);
+  padding-top: 25px;
+}
+
+.box-content {
+  padding-top: 50px;
+}
+
+.join-us-area {
+  background-image: url("../images/join-us.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.box-img-3 {
-  background-image: url(../images/brash-img-3.png);
+.join-us-area .join-us-content {
+  padding: 184px 0 174px;
+}
+
+.join-us-area .join-us-content h1 {
+  padding-bottom: 82px;
+}
+
+.join-us-area .join-us-content p {
+  padding-bottom: 87px;
+}
+
+.yoga-breathing-area {
+  background-image: url("../images/yoga-breathing-bg.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.yoga-content {
+  padding: 127px 0 164px;
+}
+
+.yoga-content h1 {
+  padding-bottom: 65px;
+}
+
+.yoga-content p {
+  padding-bottom: 87px;
+}
+
+.yoga-img {
+  padding: 80px 0 170px;
+}
+
+.gallery-area {
+  background-image: url("../images/gallery-bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.gallery {
+  text-align: center;
+  padding: 80px 0 60px;
+}
+
+.gallery p {
+  padding-top: 50px;
+}
+
+.gallery-content {
+  text-align: center;
+  padding: 40px 0 40px;
+}
+
+.gallery-content p {
+  padding-top: 35px;
 }
 /*# sourceMappingURL=style.css.map */
