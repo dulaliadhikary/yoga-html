@@ -182,8 +182,12 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    // position: relative;
     .join-us-content {
         padding: 184px 0 174px;
+        // float: right;
+        // position: relative;
+        // position: fixed;
         h1 {
             padding-bottom: 82px;
         }
@@ -245,3 +249,22 @@ body{
 }
 
 // gallery end
+
+// yoga training section start
+
+.yoga-training-video-area {
+    background-color: #e5ccc6;
+}
+.yoga-training-video-img {
+    padding: 150px 0 160px;
+    position: relative;
+    left: 32px;
+}
+.yoga-training-video-content{
+    padding: 180px 65px 200px;
+    p{
+        padding-top: 50px;
+    }
+}
+
+// yoga training section end
