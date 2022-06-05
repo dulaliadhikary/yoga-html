@@ -293,7 +293,7 @@ body {
 }
 
 .form-field label {
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 600;
   display: block;
   margin-bottom: 15px;
@@ -302,10 +302,10 @@ body {
 
 .form-field input {
   line-height: 40px;
-  padding: 0 10px;
+  padding: 0 20px;
   outline: none;
   width: 100%;
-  border: 1px solid #1157ce;
+  border: 2px solid #1157ce;
 }
 
 .form-field input:focus {
@@ -316,7 +316,7 @@ body {
   outline: none;
   width: 100%;
   padding: 10px;
-  border: 1px solid #1157ce;
+  border: 2px solid #1157ce;
 }
 
 .form-field textarea:focus {
@@ -326,7 +326,7 @@ body {
 .form-field select {
   width: 100%;
   padding: 10px;
-  border: 1px solid #1157ce;
+  border: 2px solid #1157ce;
   outline: none;
 }
 

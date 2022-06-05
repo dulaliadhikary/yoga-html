@@ -286,7 +286,7 @@ body{
 }
 // get in  section end
 
-// formarea start
+//form section start
 .form-area{
     padding: 100px 0;
 }
@@ -294,7 +294,7 @@ body{
     margin-bottom: 30px;
     margin-right: 60px;
     label{
-        font-size: 16px;
+        font-size: 15px;
         font-weight: 600;
         display: block;
         margin-bottom: 15px;
@@ -302,10 +302,10 @@ body{
     }
     input{
         line-height: 40px;
-        padding: 0 10px;
+        padding: 0 20px;
         outline: none;
         width: 100%;
-        border: 1px solid #1157ce;
+        border: 2px solid #1157ce;
         &:focus{
             border-color: #96fd0f;
         }
@@ -314,7 +314,7 @@ body{
         outline: none;
         width: 100%;
         padding: 10px;
-        border: 1px solid #1157ce;
+        border: 2px solid #1157ce;
         &:focus{
             border-color: #96fd0f;
         }
@@ -322,7 +322,7 @@ body{
     select{
         width: 100%;
         padding: 10px;
-        border: 1px solid #1157ce;
+        border: 2px solid #1157ce;
         outline: none;
     }
     &.textarea{
@@ -344,4 +344,4 @@ body{
     }
 }
 
-// formarea end
+// form section end
