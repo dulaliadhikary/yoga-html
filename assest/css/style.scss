@@ -3,7 +3,7 @@ $font-color:#484f5b;
 
 // font-family: 'Open Sans', sans-serif;
 
-
+// comon css start
 *{
     margin: 0;
     padding: 0;
@@ -78,6 +78,9 @@ body{
     // text-align: center;
     // line-height: 50px;
 }
+// comon  css start
+
+// header section start
 
 .main-header{
     height: 120px;
@@ -107,7 +110,10 @@ body{
         }
     }
 }
-// banner area start
+
+// header section start
+
+// banner section start
 
 .banner-area{
     background-image: url('../images/header-bg.jpg');
@@ -135,7 +141,7 @@ body{
     }
 }
 
-// pregnent area start
+// pregnent section start
 
 .pregnent-area{
     background-image: url('../images/pregnent-bg.jpg');
@@ -153,9 +159,9 @@ body{
    }
 }
 
-// pregnent area start
+// pregnent section start
 
-// program area start
+// program section start
 
 .box-item {
     text-align: center;
@@ -174,9 +180,9 @@ body{
     padding-top: 50px;
 }
 
-// program area end
-// =================================
-// join-us start
+// program section end
+
+// join-us section start
 .join-us-area {
     background-image: url('../images/join-us.png');
     background-position: center;
@@ -197,7 +203,7 @@ body{
     }
 }
 
-// join-us end
+// join-us section end
 
 // yoga breathing section start
 
@@ -224,7 +230,7 @@ body{
 
 // yoga breathing section end
 
-// gallery start
+// gallery section start
 .gallery-area {
     background-image: url('../images/gallery-bg.png');
     background-position: center;
@@ -248,7 +254,7 @@ body{
     }
 }
 
-// gallery end
+// gallery section end
 
 // yoga training section start
 
