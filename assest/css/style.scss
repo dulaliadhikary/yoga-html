@@ -42,6 +42,11 @@ body{
     align-items:center ;
 }
 
+.col-2{
+    flex: 0 0 16.33%;
+    max-width: 16.33%;
+
+}
 .col-3{
     flex: 0 0 25%;
     max-width: 25%;
@@ -325,12 +330,6 @@ body{
             border-color: #96fd0f;
         }
     }
-    select{
-        width: 100%;
-        padding: 10px;
-        border: 2px solid #1157ce;
-        outline: none;
-    }
     &.textarea{
         text-align: center;
     }
@@ -353,3 +352,88 @@ body{
 }
 
 // form section end
+
+// footer section start
+.footer-area{
+    padding: 70px 0;
+    background-color: #484f5b;
+    color: #fff;
+    .container{
+        max-width: 1120px;
+    }
+    .footer-widget{
+        h3 {
+            padding-bottom: 45px;
+        }
+        p {
+            padding-bottom: 45px;
+        }
+        a {
+            color: #fff;
+            text-decoration: none;
+        }
+        h4{
+            margin-bottom: 30px;
+        }
+        
+        &.footer-links{
+            ul{
+                li{
+                    list-style: none;
+                    a{
+                        color: #fff;
+                        display: block;
+                        text-decoration: none;
+                        margin-bottom: 15px;
+                    }
+                }
+            }
+        }
+        &.about-social{
+            ul{
+                margin-top: 15px;
+                display: flex;
+                column-gap: 15px;
+                li{
+                    list-style: none;
+                    background-color: #fff;
+                    line-height: 30px;
+                    width: 30px;
+                    text-align: center;
+                    a{
+                        display: block;
+                        color: #484f5b;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+h2 {
+    padding-bottom: 45px;
+}
+p {
+    padding-bottom: 45px;
+}
+.footer-domain {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+// footer section end
