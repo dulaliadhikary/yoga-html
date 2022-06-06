@@ -316,18 +316,18 @@ body {
 }
 
 .form-field input:focus {
-  border-color: #96fd0f;
+  border-color: #b50000;
 }
 
 .form-field textarea {
   outline: none;
   width: 100%;
   padding: 10px;
-  border: 2px solid #1157ce;
+  border: 2px solid #01225c;
 }
 
 .form-field textarea:focus {
-  border-color: #96fd0f;
+  border-color: #9c0012;
 }
 
 .form-field.textarea {
@@ -348,7 +348,7 @@ body {
 }
 
 .form-field button[type="submit"]:hover {
-  background-color: #96fd0f;
+  background-color: #17008c;
 }
 
 .footer-area {
@@ -409,18 +409,5 @@ body {
 .footer-area .footer-widget.about-social ul li a {
   display: block;
   color: #484f5b;
-}
-
-h2 {
-  padding-bottom: 45px;
-}
-
-p {
-  padding-bottom: 45px;
-}
-
-.footer-domain {
-  color: #fff;
-  text-decoration: none;
 }
 /*# sourceMappingURL=style.css.map */

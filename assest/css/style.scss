@@ -318,16 +318,16 @@ body{
         width: 100%;
         border: 2px solid #1157ce;
         &:focus{
-            border-color: #96fd0f;
+            border-color: #b50000;
         }
     }
     textarea{
         outline: none;
         width: 100%;
         padding: 10px;
-        border: 2px solid #1157ce;
+        border: 2px solid #01225c;
         &:focus{
-            border-color: #96fd0f;
+            border-color: #9c0012;
         }
     }
     &.textarea{
@@ -346,7 +346,7 @@ body{
         display: inline;
         // text-align: center;
         &:hover{
-            background-color: #96fd0f;
+            background-color: #17008c;
         }
     }
 }
@@ -409,31 +409,4 @@ body{
         }
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-h2 {
-    padding-bottom: 45px;
-}
-p {
-    padding-bottom: 45px;
-}
-.footer-domain {
-    color: #fff;
-    text-decoration: none;
-}
-
-
 // footer section end
