@@ -344,6 +344,7 @@ body {
   color: #fff;
   margin-top: 20px;
   cursor: pointer;
+  display: inline;
 }
 
 .form-field button[type="submit"]:hover {
