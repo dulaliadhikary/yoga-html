@@ -399,7 +399,10 @@ body{
                 }
             }
         }
-        &.about-social{
+        &.about-social{     
+            .footer-logo {
+                padding-bottom: 45px;
+            }    
             ul{
                 margin-top: 15px;
                 display: flex;
@@ -417,6 +420,7 @@ body{
                 }
             }
         }
+        
     }
 }
 // footer section end

@@ -411,6 +411,10 @@ body {
   margin-bottom: 15px;
 }
 
+.footer-area .footer-widget.about-social .footer-logo {
+  padding-bottom: 45px;
+}
+
 .footer-area .footer-widget.about-social ul {
   margin-top: 15px;
   display: -webkit-box;
