@@ -79,9 +79,6 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    // display: inline-block;
-    // text-align: center;
-    // line-height: 50px;
 }
 // comon  css start
 
@@ -193,12 +190,8 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    // position: relative;
     .join-us-content {
         padding: 184px 0 174px;
-        // float: right;
-        // position: relative;
-        // position: fixed;
         h1 {
             padding-bottom: 82px;
         }
@@ -276,7 +269,24 @@ body{
     p{
         padding-top: 50px;
     }
+    ul {
+        margin-top: 55px;
+        display: flex;
+        list-style: none;
+        column-gap: 30px;
+        li {
+            background-color: #484f5b;
+            line-height: 45px;
+            width: 45px;
+            text-align: center;
+        }
+        a {
+            color: #ffff;
+            display: block;
+        }
+    }
 }
+
 
 // yoga training section end
 
@@ -336,9 +346,9 @@ body{
     button[type="submit"]{
         border: none;
         outline: none;
-        width: 180px;
+        width: 200px;
         line-height: 50px;
-        background-color: #1157ce;
+        background-color: #e6c8c3;
         border-radius: 5px;
         color: #fff;
         margin-top: 20px;

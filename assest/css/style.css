@@ -274,6 +274,28 @@ body {
   padding-top: 50px;
 }
 
+.yoga-training-video-content ul {
+  margin-top: 55px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  -webkit-column-gap: 30px;
+          column-gap: 30px;
+}
+
+.yoga-training-video-content ul li {
+  background-color: #484f5b;
+  line-height: 45px;
+  width: 45px;
+  text-align: center;
+}
+
+.yoga-training-video-content ul a {
+  color: #ffff;
+  display: block;
+}
+
 .get-in-area {
   background-image: url("../images/get-in.png");
   background-position: center;
@@ -337,9 +359,9 @@ body {
 .form-field button[type="submit"] {
   border: none;
   outline: none;
-  width: 180px;
+  width: 200px;
   line-height: 50px;
-  background-color: #1157ce;
+  background-color: #e6c8c3;
   border-radius: 5px;
   color: #fff;
   margin-top: 20px;
